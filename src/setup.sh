@@ -15,8 +15,8 @@ if [ "$1" == "" ]; then
     echo ""
     echo "Select profile:"
     echo "----------------"
-    echo "pc ==> Computer"
-    echo "ntb ==> Notebook"
+    echo "ntb ==> notebook basics"
+    echo "all ==> ntb + all big apps like kicad or blender"
     echo ""
     exit 0
 fi
